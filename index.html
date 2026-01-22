@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="notification"></div>
+    <div class="card">
+        <header>
+            <span class="logo">
+                <img src="img/masterCard.png" alt="masterCard">
+                <h5>MasterCard</h5> 
+            </span>
+            <img src="img/chip.png" alt="chip" class="chip">
+        </header>
+        <div class="card-details">
+            <div class="card-number">
+                <label for="cardInput">Card Number</label>
+                <input 
+                    type="text" 
+                    id="cardInput" 
+                    placeholder="xxxx xxxx xxxx xxxx" 
+                    maxlength="19"
+                    inputmode="numeric"
+                >
+            </div>
+            <div class="valid-date-name">
+                <h4>Name Surname</h4>
+                <div class="valid-date">
+                    <h6> Valid Thru</h6>
+                    <h5>00/00</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
